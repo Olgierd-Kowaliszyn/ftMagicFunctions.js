@@ -160,7 +160,7 @@ ftmf.random = function(_arg)
 {
   
   //wylosuj liczbe
-  var _number = (Math.random() * _arg.max - _arg.min) + _arg.min;
+  var _number = (Math.random() * (_arg.max - _arg.min)) + _arg.min;
   
   //jeżeli zarządano zaokrąglenia liczby to zrób to
   if(_arg.floor && _arg.floor == 1)
