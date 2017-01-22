@@ -12,8 +12,8 @@ The **ftmf**, or **ftMagicFunctions** is the object of this functions set
 
 ## math functions
 - **ftmf.med(Array numbers, Bool options)** - return the median of range numbers, if options is TRUE, function will return the array of possibly medians (when the number of medians is higher then 1)
-- **ftmf.toMousePoint(Object _data { Number x, Number y, [Element target] })** - return in pixels and precents the position of cursor in **target** element, the default **target** is document
-- **ftmf.random(Object _data { Number min, Number max, [Bool floor] })** - random the number from **min** to **max**, if the **floor** is TRUE the type of return number will be integer
+- **ftmf.toMousePoint(Object _data { x: Number, y: Number, [target: Element] })** - return in pixels and precents the position of cursor in **target** element, the default **target** is document
+- **ftmf.random(Object _data { min: Number, max: Number, [floor: Bool] })** - random the number from **min** to **max**, if the **floor** is TRUE the type of return number will be integer
 - **ftmf.precentValue(Number a, Number b)** - return how many precent of **b** is **a**
 - **ftmf.precentValueBack(Number a, Number b)** - return how many is 100% if **b** is **a**%
 
